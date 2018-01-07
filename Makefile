@@ -18,11 +18,13 @@ include sub.mk
 visual:
 	git clone https://github.com/dushoff/visualization.git $@
 
+visual.newhybrid:
+
 ######################################################################
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
--include $(ms)/clones.mk
+-include $(ms)/hybrid.mk
 
 # -include $(ms)/wrapR.mk
 # -include $(ms)/oldlatex.mk
