@@ -7,7 +7,6 @@ target: $(target)
 
 ##################################################################
 
-
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 # include $(ms)/perl.def
@@ -16,10 +15,14 @@ include sub.mk
 
 ## Content
 
+visual:
+	git clone https://github.com/dushoff/visualization.git $@
+
 ######################################################################
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
+-include $(ms)/clones.mk
 
 # -include $(ms)/wrapR.mk
 # -include $(ms)/oldlatex.mk
