@@ -4,6 +4,9 @@ commit.default
 target.mk
 .*.sw*
 
+## Cloned repos
+visual/
+
 *.Rout.pdf
 *.html
 
@@ -28,3 +31,4 @@ clonedir/
 
 *.makestuff
 up.time
+
