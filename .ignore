@@ -1,4 +1,5 @@
 ## Content from .ignore
+make.log
 local.mk
 target.mk
 .*.sw*
