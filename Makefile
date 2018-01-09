@@ -15,14 +15,16 @@ include sub.mk
 
 ## Content
 
+### Dushoff organization
+org:
+	git clone https://github.com/dushoff/org.git $@
+
 ### Displaying visual information (stats744)
 visual.newhybrid:
 visual:
 	git clone https://github.com/dushoff/visualization.git $@
 
-### Dushoff organization
-org:
-	git clone https://github.com/dushoff/org.git $@
+### Population ecology
 
 ######################################################################
 
