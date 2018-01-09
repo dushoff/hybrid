@@ -16,9 +16,17 @@ include sub.mk
 ## Content
 
 visual:
+	git clone https://github.com/dushoff/hybrid.git .
+
+
+### Displaying visual information (stats744)
+visual.newhybrid:
+visual:
 	git clone https://github.com/dushoff/visualization.git $@
 
-visual.newhybrid:
+### Dushoff organization
+org:
+	git clone https://github.com/dushoff/org.git $@
 
 ######################################################################
 
