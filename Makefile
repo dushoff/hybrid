@@ -15,6 +15,8 @@ include sub.mk
 
 ## Content
 
+clonedirs += org visual
+
 ### Dushoff organization
 org:
 	git clone https://github.com/dushoff/org.git $@
@@ -25,6 +27,8 @@ visual:
 	git clone https://github.com/dushoff/visualization.git $@
 
 ### Population ecology
+
+Ignore += $(clonedirs)
 
 ######################################################################
 
