@@ -15,7 +15,7 @@ include sub.mk
 
 ## Content
 
-visual:
+.:
 	git clone https://github.com/dushoff/hybrid.git .
 
 
