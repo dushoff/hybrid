@@ -19,7 +19,6 @@ clonedirs += org visual
 
 .gitignore: Makefile
 
-
 ### Dushoff organization
 org:
 	git clone https://github.com/dushoff/org.git $@
