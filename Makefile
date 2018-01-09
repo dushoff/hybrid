@@ -15,7 +15,9 @@ include sub.mk
 
 ## Content
 
-clonedirs += org/ visual
+clonedirs += org visual
+
+.gitignore: Makefile
 
 ### Dushoff organization
 org:
