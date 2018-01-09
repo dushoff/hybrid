@@ -15,10 +15,6 @@ include sub.mk
 
 ## Content
 
-.:
-	git clone https://github.com/dushoff/hybrid.git .
-
-
 ### Displaying visual information (stats744)
 visual.newhybrid:
 visual:
