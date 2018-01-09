@@ -15,7 +15,7 @@ include sub.mk
 
 ## Content
 
-clonedirs += org visual
+clonedirs += org/ visual
 
 ### Dushoff organization
 org:
