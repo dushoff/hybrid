@@ -6,6 +6,7 @@ target.mk
 
 ## Cloned repos
 visual/
+org
 
 *.Rout.pdf
 *.html
