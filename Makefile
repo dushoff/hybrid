@@ -2,7 +2,6 @@
 # This is a _master_ hybrid repo
 # has makestuff and clone subdirectories
 
-
 ######################################################################
 
 ### Hooks for the editor to set the default target
@@ -24,7 +23,7 @@ include sub.mk
 ### Dushoff organization
 clonedirs += org
 org:
-	git clone https://github.com/dushoff/org.git $@
+	git clone https://github.com/dushoff/$@.git $@
 
 ### Displaying visual information (stats744)
 clonedirs += visual
@@ -34,7 +33,11 @@ visual:
 ### Population ecology
 clonedirs += 3SS
 3SS:
-	git clone https://github.com/Bio3SS/3SS.git $@
+	git clone https://github.com/Bio3SS/$@.git $@
+
+clonedirs += Workshops
+Workshops:
+	git clone https://github.com/dushoff/$@.git $@
 
 ### Ignore
 Ignore += $(clonedirs)
