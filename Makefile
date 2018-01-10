@@ -1,4 +1,10 @@
 # /home/dushoff/hybrid
+# This is a _master_ hybrid repo
+# has makestuff and clone subdirectories
+
+
+######################################################################
+
 ### Hooks for the editor to set the default target
 current: target
 target = Makefile
@@ -15,18 +21,20 @@ include sub.mk
 
 ## Content
 
-clonedirs += org visual
-
 ### Dushoff organization
+clonedirs += org
 org:
 	git clone https://github.com/dushoff/org.git $@
 
 ### Displaying visual information (stats744)
-visual.newhybrid:
+clonedirs += visual
 visual:
 	git clone https://github.com/dushoff/visualization.git $@
 
 ### Population ecology
+clonedirs += 3SS
+3SS:
+	git clone https://github.com/Bio3SS/3SS.git $@
 
 ### Ignore
 Ignore += $(clonedirs)
