@@ -35,6 +35,7 @@ clonedirs += 3SS
 3SS:
 	git clone https://github.com/Bio3SS/$@.git $@
 
+### Workshops (NTU, ICI3D, …
 clonedirs += Workshops
 Workshops:
 	git clone https://github.com/dushoff/$@.git $@
