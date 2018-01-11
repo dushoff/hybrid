@@ -1,3 +1,5 @@
+----------------------------------------------------------------------
+
 Kinds of repos under the hybrid system:
 
 * master repos (so far just one, stupidly called hybrid)
@@ -19,3 +21,12 @@ Kinds of repos under the hybrid system:
 * Display repos
 	* like gh-pages...
 	* not so sure about choices here. can makestuff be an uplink again?
+
+----------------------------------------------------------------------
+
+Synchronizing
+* Pull things in chunks you need; rarely higher than the working-repo level
+* Push by making .up files; we need to be able to say things are up to date
+
+Makestuff
+* Pushing changes that need to be recursive is going to remain a challenge, I guess. Work out more of it now?
