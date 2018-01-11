@@ -27,6 +27,8 @@ Kinds of repos under the hybrid system:
 Synchronizing
 * Pull things in chunks you need; rarely higher than the working-repo level
 * Push by making .up files; we need to be able to say things are up to date
+* Or should it be a generalization of up.time? (Should the marker file be here, or there… here! better for timestamps)
+* The time stamp is trickier than you think, though 
 
 Makestuff
 * Pushing changes that need to be recursive is going to remain a challenge, I guess. Work out more of it now?
