@@ -3,4 +3,5 @@ make.log
 local.mk
 target.mk
 .*.sw*
+.gitignore
 
