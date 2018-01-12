@@ -1,0 +1,10 @@
+Container
+=========
+2018 Jan 11 (Thu) converting academic
+
+* Insert upstuff and replace makestuff
+* make cloneignore (from here)
+	* did not work, why?
+* make academic.cloneignore
+	* made but didn't fix problems, why??
+* We should have container.makefile in this directory, no?
