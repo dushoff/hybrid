@@ -18,8 +18,9 @@ Kinds of repos under the hybrid system:
 	* repos that depend on us (or that we just want to refer to) are mostly clones
 	* a working repo makes non-trivial stuff
 
-* Display repos
+* Display repos (or slave?) 
 	* like gh-pages...
+	* Private info
 	* not so sure about choices here. can makestuff be an uplink again?
 
 ----------------------------------------------------------------------

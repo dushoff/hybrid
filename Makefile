@@ -40,6 +40,11 @@ clonedirs += Workshops
 Workshops:
 	git clone https://github.com/dushoff/$@.git $@
 
+Sources += conversion.txt
+clonedirs += academic
+academic:
+	git clone https://github.com/dushoff/$@.git $@
+
 ### Ignore
 Ignore += $(clonedirs)
 
