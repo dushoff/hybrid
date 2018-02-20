@@ -21,6 +21,8 @@ include sub.mk
 ## Content
 
 ### Dushoff organization
+### https://github.com/dushoff/
+
 clonedirs += org
 org:
 	git clone https://github.com/dushoff/$@.git $@
@@ -40,6 +42,14 @@ clonedirs += Workshops
 Workshops:
 	git clone https://github.com/dushoff/$@.git $@
 
+### Research (core research)
+Sources += research.txt
+clonedirs += research
+research:
+	git clone https://github.com/dushoff/$@.git $@
+
+### Academic (research with others)
+### Also public-facing stuff like smb-mathepi
 Sources += conversion.txt
 clonedirs += academic
 academic:

@@ -9,11 +9,13 @@ Kinds of repos under the hybrid system:
 
 * container repos
 	* makestuff is a symbolic link up the chain (usually to master repo)
+		* upstuff.mk
 	* other repos (mostly working repos) are clones
 	* other content is mostly notes
 
 * working repos
 	* makestuff is a submodule 
+		* work.mk ⇒ substuff.mk
 	* repos we depend on are mostly submodules
 	* repos that depend on us (or that we just want to refer to) are mostly clones
 	* a working repo makes non-trivial stuff
@@ -22,6 +24,9 @@ Kinds of repos under the hybrid system:
 	* like gh-pages...
 	* Private info
 	* not so sure about choices here. can makestuff be an uplink again?
+
+* Non-repos; quick working stuff
+	* use nogit.mk
 
 ----------------------------------------------------------------------
 
