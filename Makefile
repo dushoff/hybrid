@@ -20,9 +20,8 @@ include sub.mk
 
 ## Content
 
-### Dushoff organization
+### Organizing myself
 ### https://github.com/dushoff/
-
 clonedirs += org
 org:
 	git clone https://github.com/dushoff/$@.git $@
@@ -53,6 +52,10 @@ research:
 Sources += conversion.txt
 clonedirs += academic
 academic:
+	git clone https://github.com/dushoff/$@.git $@
+
+clonedirs += research
+research:
 	git clone https://github.com/dushoff/$@.git $@
 
 ### Ignore
