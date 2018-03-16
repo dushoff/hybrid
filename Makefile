@@ -54,10 +54,6 @@ clonedirs += academic
 academic:
 	git clone https://github.com/dushoff/$@.git $@
 
-clonedirs += research
-research:
-	git clone https://github.com/dushoff/$@.git $@
-
 ### Ignore
 Ignore += $(clonedirs)
 
