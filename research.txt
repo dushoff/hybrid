@@ -1,3 +1,1 @@
-make research
-make research.cloneignore ##
-make[1]: Entering directory '/home/dushoff/hybrid/research'
+Is this a good file?
